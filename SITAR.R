@@ -1,10 +1,16 @@
+
+#required packages
+
 require(splines)
 require(MCMCpack)
 require(multinomRob)
 
+#read the data
+
 data<-read.csv("C:/Users/bhuiy/Downloads/FW%3a_update_with_the_SITAR_model_project/sitar.csv",header=TRUE)
 head(data)
 dim(data)
+
 
 sigmaalpha=3
 alphascale=1
